@@ -1,0 +1,14 @@
+body {
+  font-family: helvetica;
+}
+
+.logo-left {
+  color: #9f54db;
+  font-family: Helvetica;
+  font-size: 50;
+}
+
+.logo-right {
+  color: #363e69;
+  font-family: luminari;
+}
