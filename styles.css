@@ -25,6 +25,20 @@ header {
   padding: 0 15px;
 }
 
+form {
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px;
+  border: 1px solid #363e69;
+  background-color: #ffffff;
+}
+
+#search-box {
+  border-radius: 40px;
+  border: none;
+  margin: 2px;
+}
+
 .search-form button {
   border: none;
   background-color: transparent;
