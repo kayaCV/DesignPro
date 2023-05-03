@@ -25,6 +25,13 @@ header {
   padding: 0 15px;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
 form {
   display: flex;
   flex-direction: row;
