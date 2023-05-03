@@ -25,6 +25,12 @@ header {
   padding: 0 15px;
 }
 
+.search-form button {
+  border: none;
+  background-color: transparent;
+  color: #363e69;
+}
+
 .header-links li {
   display: inline-flex;
   font-size: 12px;
