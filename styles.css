@@ -45,6 +45,16 @@ form {
   color: #363e69;
 }
 
+.header-right select {
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  color: #363e69;
+  margin-left: 12px;
+  margin-right: 7px;
+}
+
 .header-links li {
   display: inline-flex;
   font-size: 12px;
