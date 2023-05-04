@@ -46,7 +46,8 @@ form {
   margin: 2px;
 }
 
-.search-form button {
+.search-form button,
+.mobile-search {
   border: none;
   background-color: transparent;
   color: #363e69;
@@ -69,7 +70,8 @@ form {
   padding: 5px;
 }
 
-.header-right {
+.header-right,
+.header-left {
   display: inline-flex;
   align-items: center;
 }
@@ -77,4 +79,21 @@ form {
 .header-links {
   margin-left: 0%;
   padding-left: 0%;
+}
+
+.hamburger-menu {
+  padding: 5px;
+}
+
+.logo-mobile {
+  font-size: 20px;
+}
+@media (max-width: 480px) {
+  .mobile-view {
+    display: flex !important;
+  }
+
+  .desktop-view {
+    display: none !important;
+  }
 }
