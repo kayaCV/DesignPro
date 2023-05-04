@@ -2,35 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width initial-scale=0.5" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <meta name="description" content="design pro homepage" />
     <title>Design Pro</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script
+      src="https://kit.fontawesome.com/89b1e6798f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-            <h1 class="logo">
-                <span class="logo-left">Design</span><span class="logo-right">Pro</span>
-            </h1>
-        <div class="header-right">
-                <form class="search-form">
-                    <input type="text" id="search-box"></input>
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-                <select name="language">
-                    <option value="english">EN</option>
-                    <option value="french">FR</option>
-                    <option value="portuguese">PT</option>
-                    <option value="spanish">ES</option>
-                </select>
-                <nav id="header-nav">
-                    <ul class="header-links">
-                        <li>Account</li>
-                        <li>Cart</li>
-                    </ul>
-                </nav> 
-        </div>
+    <header class="desktop-view">
+      <h1 class="logo-desktop">
+        <span class="logo-left">Design</span><span class="logo-right">Pro</span>
+      </h1>
+      <div class="header-right">
+        <form class="search-form">
+          <input type="text" id="search-box" />
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        <select name="language">
+          <option value="english">EN</option>
+          <option value="french">FR</option>
+          <option value="portuguese">PT</option>
+          <option value="spanish">ES</option>
+        </select>
+        <nav class="header-nav">
+          <ul class="header-links">
+            <li>Account</li>
+            <li>Cart</li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
