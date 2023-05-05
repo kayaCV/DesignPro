@@ -63,7 +63,8 @@ form {
   margin-right: 7px;
 }
 
-.header-links li {
+.header-links li,
+.nav-header li {
   display: inline-flex;
   font-size: 12px;
   font-weight: bold;
@@ -82,18 +83,64 @@ form {
 }
 
 .hamburger-menu {
-  padding: 5px;
+  padding-right: 10px;
 }
 
 .logo-mobile {
   font-size: 20px;
 }
-@media (max-width: 480px) {
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 90%;
+  height: 40px;
+  border-bottom: 5px solid rgba(147, 137, 178, 0.18);
+}
+
+.mobile-view {
+  height: 50px;
+  width: 100% !important;
+}
+
+.mobile-header-nav li {
+  padding-left: 10px;
+}
+
+.nav-left ul {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left li:not(:last-child) {
+  padding-left: 0px;
+  padding-right: 15vw;
+}
+
+.nav-right li {
+  padding-right: 0px;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+@media (max-width: 600px) {
   .mobile-view {
     display: flex !important;
   }
 
   .desktop-view {
+    display: none !important;
+  }
+
+  .nav-header {
     display: none !important;
   }
 }
